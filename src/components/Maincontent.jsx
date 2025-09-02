@@ -1,4 +1,4 @@
-import { Home } from './Main.jsx'
+import { Home } from './Home.jsx'
 import { Projects } from './Projects.jsx'
 import { Contactme } from './Contact.jsx'
 import { Aboutme } from './Aboutme.jsx'
