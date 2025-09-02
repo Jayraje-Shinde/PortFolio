@@ -16,7 +16,7 @@ export default function Portfolio() {
 						<SidebarItemsWithStyles />
 					</aside>
 
-					<main className="m-4 scroll-auto overflow-y-auto bg-lightbg rounded-2xl h-[28rem] p-4 flex-1 custom-scrollbar">
+					<main className="m-4 overflow-x-hidden scroll-auto overflow-y-auto bg-lightbg rounded-2xl h-[28rem] p-4 flex-1 custom-scrollbar">
 						<Maincontent />
 					</main>
 				</div>
