@@ -8,8 +8,10 @@ export function Contactme() {
 		number: "",
 		message: ""
 	});
+	const [disabled, setDisabled] = useState(false);
 	const handleSubmit = async (event) => {
 		event.preventDefault();
+		setDisabled(true);
 		const data = {
 			"service_id": "service_6rrrf2w",
 			"template_id": "template_3h8siao",
@@ -29,6 +31,7 @@ export function Contactme() {
 		});
 		event.target.reset();
 		alert("Thank you for your message!");
+		setDisabled(false);
 	};
 
 	function handleChange(e) {
@@ -45,7 +48,7 @@ export function Contactme() {
 					<input className="p-3 bg-[transperant] border-4 border-[#112A46] text-[#112A46] w-3xs rounded-2xl" type="email" name="email" onChange={handleChange} placeholder="Email" />
 					<input className="p-3 bg-[transperant] border-4 border-[#112A46] text-[#112A46] w-3xs rounded-2xl" type="text" name="number" maxLength={10} onChange={handleChange} placeholder="Contact number" />
 					<textarea className="p-3 bg-[transperant] border-4 border-[#112A46] text-[#112A46] w-3xs rounded-2xl" name="message" onChange={handleChange} placeholder="Message..."></textarea>
-					<button className="bg-teracottabg-1 hover:bg-teracottabg-2 cursor-pointer text-white p-4 w-3xs rounded-2xl" type="submit">Send</button>
+					<button className={`bg-teracottabg-1 hover:bg-teracottabg-2 cursor-pointer text-white p-4 w-3xs rounded-2xl ${disabled ? "opacity-50 bg-[#550f05] cursor-not-allowed" : ""}`} type="submit" disabled={disabled}>Send</button>
 				</div>
 			</form>
 
