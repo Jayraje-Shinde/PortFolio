@@ -8,7 +8,7 @@ export function Maincontent() {
 			<Route path="/" element={
 				<>
 					<h2 className="text-2xl text-browntext font-bold mb-4">Main Content</h2>
-					<p>This is the main content area.</p>
+					<p>Changed this</p>
 				</>
 			} />
 			<Route path="/Projects" element={<Projects />} />
