@@ -14,7 +14,7 @@ export const siteConfig = {
   bio: "I build things that run in production. Full stack by practice, systems-curious by nature — I've written memory allocators in C and shipped IoT dashboards with real device management. Currently going deeper into Linux infrastructure, NGINX reverse proxies, DNS, and self-hosted deployments.",
 
   summary:
-    "Second-year CS student at AISSMS College of Engineering, Pune. I work on real products — a freelance news portal, an IoT device management platform, and a desktop POS system for hotels. Outside class, I'm on the DevOps team at GDG On Campus and spending time learning how apps actually reach users: servers, networking, and infrastructure from scratch.",
+    "CS student at AISSMS College of Engineering, Pune. I work on real products — a freelance news portal, an IoT device management platform, and a desktop POS system for hotels. Outside class, I'm on the DevOps team at GDG On Campus and spending time learning how apps actually reach users: servers, networking, and infrastructure from scratch.",
 
   gdg: "DevOps Team Member · GDG On Campus, AISSMS",
 
